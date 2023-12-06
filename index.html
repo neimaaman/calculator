@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <script>
+            function myclear(){
+                document.getElementById("display").innerHTML += " ";}
+
+            function one(){
+                document.getElementById("display").innerHTML += " 1";}
+
+            function disp(digit) {
+                document.getElementById('dispaly').innerHTML += digit; 
+            }   
+
+        </script>
+    </head>
+
+    <body>
+        <main class="w-96 mx-auto grid grid-row-5 grid-cols-4 gap-1">
+
+        
+        <button class="bg-green-100 p-2 col-span-3"
+                id="display"
+                type="button"
+                onclick='documnet.getElementById("display").innerHTML = "result"'> 
+        </button>
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick= "myclear()" >
+
+        </button>
+        
+        <button class="bg-green-100 p-2 "
+                type="button"
+                onclick="one()"> 1
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('2')" > 2
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('3')"> 3
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button" 
+                onclick="disp('/')"> /
+        </button>
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('4')"> 4
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button" 
+                onclick="disp('5')"> 5
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('6')"> 6
+        </button>
+
+        <button class="bg-green-100"
+                type="button"
+                onclick= "disp('*')"> *
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('7')"> 7
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('8')"> 8
+        </button>
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('9')"> 9
+        </button>
+
+        <button class="bg-green-100 p-2" 
+                type="button"
+                onclick="disp('-')"> -
+        </button>
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick='document.getElementById("display").innerHTML+= "0"'> 0
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('.')"> . 
+        </button>
+
+        <button class="bg-green-100 p-2"
+                type="button"
+                onclick="disp('=')"> =
+        </button>
+        <button class="bg-green-100 p-2" 
+            onclick="disp('+')"> +  
+            
+        </button>
+
+
+
+
+
+            
+        </main>
+    
+    </body>
+</html>
