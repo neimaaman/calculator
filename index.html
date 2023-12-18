@@ -8,7 +8,8 @@
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <script>
             function clr(){
-                document.getElementById('display').innerHTML += " ";}
+                document.getElementById('display').innerHTML += " ";
+            }
 
             function one(){
                 document.getElementById('display').innerHTML += " 1";
@@ -29,91 +30,91 @@
     </head>
 
     <body>
-        <main class="w-96 mx-auto grid grid-row-5 grid-cols-4 gap-1">
+        <main class="w-96 mx-auto grid grid-row-5 grid-cols-4 gap-1 border-2 border-black mt-16 rounded p-1">
 
         
             <button 
                 id="display"
-                class="bg-green-100 p-2 col-span-3 h-8"></button>
+                class="bg-green-400 p-4 col-span-3 rounded  "></button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick= "clr()" > C
 
             </button>
             
-            <button class="bg-green-100 p-2 "
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="one()"> 1
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('2')" > 2
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('3')"> 3
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button" 
                     onclick="disp('/')"> /
             </button>
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('4')"> 4
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button" 
                     onclick="disp('5')"> 5
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('6')"> 6
             </button>
 
-            <button class="bg-green-100"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick= "disp('*')"> *
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('7')"> 7
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('8')"> 8
             </button>
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('9')"> 9
             </button>
 
-            <button class="bg-green-100 p-2" 
+            <button class="bg-green-400 p-4 rounded" 
                     type="button"
                     onclick="disp('-')"> -
             </button>
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('0')"> 0
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="disp('.')"> . 
             </button>
 
-            <button class="bg-green-100 p-2"
+            <button class="bg-green-400 p-4 rounded"
                     type="button"
                     onclick="ans ()"> =
             </button>
-            <button class="bg-green-100 p-2" 
+            <button class="bg-green-400 p-4 rounded" 
                 onclick="disp('+')"> +  
                 
             </button>
